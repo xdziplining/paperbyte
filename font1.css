@@ -1,0 +1,72 @@
+/* style.css for Sofia Sans */
+
+/* Import the Sofia Sans font family from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/*  General Styling using Sofia Sans */
+body {
+  font-family: 'Sofia Sans', sans-serif; /* Apply Sofia Sans to the entire body */
+  font-weight: 400; /* Set a default font weight (adjust as needed) */
+  font-style: normal; /* Set a default font style (adjust as needed) */
+  line-height: 1.5; /* Set a default line height for better readability */
+  color: #333; /* Set a default text color */
+  margin: 0;  /* Reset default margins */
+  padding: 0; /* Reset default padding */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Sofia Sans', sans-serif; /* Apply Sofia Sans to headings */
+  font-weight: 600; /* Make headings slightly bolder (adjust as needed) */
+  /* Add specific styling for headings if desired (e.g., margins, colors) */
+}
+
+p {
+  font-family: 'Sofia Sans', sans-serif; /* Apply Sofia Sans to paragraphs */
+  /* Add specific styling for paragraphs if desired (e.g., margins, line-height) */
+}
+
+a {
+  font-family: 'Sofia Sans', sans-serif; /* Apply Sofia Sans to links */
+  color: #007bff; /* Example link color */
+  text-decoration: none; /* Remove underlines from links */
+}
+
+a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Example of using different weights and styles */.light {
+  font-weight: 300;
+}.bold {
+  font-weight: 700;
+}.italic {
+  font-style: italic;
+}
+
+/* Example of using specific font sizes */.small-text {
+  font-size: 0.8rem;
+}.large-text {
+  font-size: 1.2rem;
+}
+
+
+/*  You can add more specific styles as needed for different elements */
+/*  For example, styling for buttons, forms, navigation, etc. */
+
+button {
+    font-family: 'Sofia Sans', sans-serif;
+    font-weight: 500; /* Example button font weight */
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff; /* Example button background color */
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker background on hover */
+}
+
+/*... more styles... */
